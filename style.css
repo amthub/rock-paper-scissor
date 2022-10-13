@@ -96,7 +96,7 @@ h1{
     box-shadow: 2px 3px 5px  rgb(0, 85, 255,0.5), 2px 3px 5px 0.5 rgb(9, 148, 144,0.5);
 }
 
-@media (max-width:450px) {
+@media (max-width:500px) {
     .game-board{
         margin-left: 350px;
         display: flex;
