@@ -98,7 +98,7 @@ h1{
 
 @media (max-width:500px) {
     .game-board{
-        margin-left: 400px;
+        margin-left: 420px;
         display: flex;
         justify-content: space-around;
     }
@@ -109,7 +109,7 @@ h1{
     .screen{
         justify-content: space-around;
         margin: 0px;
-        margin-left: 50px;
+        margin-left: 200px;
         /* height: 25vh; */
     }
 
