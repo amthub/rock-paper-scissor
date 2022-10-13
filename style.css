@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: linear-gradient(rgb(26, 95, 141), rgb(21, 104, 200));
+    height: 100vh;
+    /* background-color: white; */
+    /* box-shadow: 0px 3px 10px rgba(0,0,0,0.3); */
+    /* margin: 10px 50px 10px 50px; */
+}
+img{
+    width: 12%;
+    /* background-color: white; */
+    /* animation-name: hover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: white;
+}
+/* @keyframes hover {
+    0%{border: 2px solid red;}
+    25%{border:2px solid  yellow;}
+    75%{border:2px solid  green;}
+    100%{border:2px solid  blue;}
+} */
+.btn-3{
+   border-radius: 55%;
+}
+h1{
+    text-align: center;
+}
+.game-board{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.btn{
+    margin: 40px 60px ;
+}
+.screen{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    margin: 20px auto;
+}
+.text{
+     display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    /* margin: 20px 40px;  */
+}
+.text p{
+    margin: 0px 70px;
+    /* background: linear-gradient(red, rgb(147, 135, 137)); */
+    text-shadow: 2px 3px 5px red, 2px 3px 5px blue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* box-shadow: 0px 3px 10px rgba(0,0,0,0.3); */
+
+    font-size: 20px;
+    padding: 20px;
+}
+.screen p{
+    /* border: 2px solid black; */
+    /* border-radius: 50%; */
+}
+.result img{
+    width: 150px;
+    margin: 0px 70px;
+}
+.random img{
+    margin: 0px 70px;
+    width: 150px;
+}
+
+
+.board{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(0, 85, 255);
+    color: white;
+    height: 100px;
+    width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 2px 3px 5px  rgb(0, 85, 255,0.5), 2px 3px 5px 0.5 rgb(9, 148, 144,0.5);
+}
